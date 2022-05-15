@@ -1,0 +1,210 @@
+html,
+body {
+    background-color: black;
+    width: 100%;
+    height: 100%;
+    overflow-y: visible;
+    overflow-x: hidden;
+    user-select: none;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+.header {
+    width: 100%;
+    height: 100%;
+    background-image:
+        radial-gradient(190% 60% at 50% 38%,
+            rgba(255, 181, 72, 0), 73.22%,
+            #000000 98%),
+        url('file:///D:/NEW%20HOBI/Binary/chalenge%20chapter%203/chap3/assets/main-bg.jpg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+.navbar {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-color: rgba(0, 0, 0, 0.75);
+}
+
+.nav-link:hover,
+#logo:hover {
+    color: #FBB341 !important;
+}
+
+.header-info {
+    padding-top: 10%;
+    width: 100%;
+    height: 90%;
+    color: white;
+    text-align: center;
+}
+
+.header-tittle-info {
+    width: 100%;
+    font-family: 'Bebas Neue';
+    font-size: 8vw;
+    font-weight: bold;
+    font-style: bold;
+    line-height: 50px;
+    letter-spacing: 4px;
+    margin-bottom: 10px;
+}
+
+.header-mini-info {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: normal;
+    font-family: 'Bebas Neue', Helvetica, sans-serif;
+    letter-spacing: 5px;
+    line-height: 40px;
+    flex: 1;
+    margin-bottom: 50px;
+    padding-top: 20px;
+}
+
+.header-info-button:hover {
+    background-color: #E0A800;
+}
+
+.header-scroll-link-wrapper {
+    text-decoration: none;
+    color: white;
+}
+
+.galerry {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        radial-gradient(190% 60% at 50% 38%,
+            rgba(255, 181, 72, 0),
+            #000000 98%),
+        url('file:///D:/NEW%20HOBI/Binary/chalenge%20chapter%203/chap3/assets/the-games-bg.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;  
+}
+
+.galerry-content {
+    padding-top: 10%;
+    flex-direction: row;
+    width: 90vw !important;
+    color: white;
+}
+
+.galerry-mini-content {
+    font-size: 4rem;
+    margin-top: -0.9rem !important;
+    line-height: 60px;
+}
+
+.features {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        radial-gradient(190% 60% at 50% 38%,
+            rgba(255, 181, 72, 0),
+            #000000 98%),
+        url('file:///D:/NEW%20HOBI/Binary/chalenge%20chapter%203/chap3/assets/features.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;  
+}
+
+.features-content {
+    padding-top: 10%;
+    flex-direction: row;
+    width: 90vw !important;
+    color: white;
+    font-size: 1rem;
+    padding-right: 38%;
+}
+
+.features-mini-content {
+    font-size: 2.5rem;
+    margin-top: -0.9rem !important;
+    line-height: 60px;
+}
+
+.features-info-content {
+    color: white;
+    padding-top: 2rem;
+    padding-right: 7rem;
+}
+
+.tl-info-title {
+    color: #FBB341 !important;
+}
+
+.spec {
+    width: 100%;
+    height: 100vh;
+    background-image:
+        radial-gradient(30% 75% at 65% 40%,
+            rgba(0, 0, 52, 0) 0%,
+            rgba(10, 10, 10, 0.50) 50%,
+            #000 95%),
+        url('file:///D:/NEW%20HOBI/Binary/chalenge%20chapter%203/chap3/assets/requirements.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 10%;
+    text-align: center;  
+}
+
+.spec-info-top {
+    color: white;
+    text-align: left;
+    font-size: 1rem;
+    margin-bottom: -1.5rem;
+}
+
+.spec-req {
+    font-weight: bold;
+    font-style: bold;
+    line-height: 60px;
+}
+
+.table-content-req {
+    max-width: 30vw !important;
+}
+
+.table-req-info {
+    font-family: Arial, Helvetica, sans-serif;
+    color: #FBB341;
+    font-style: normal;
+    font-size: 1.5rem;
+}
+
+.table-req-content {
+    color: white;
+    font-family: 'Open sans', Arial, Helvetica, sans-serif;
+    line-height: 1rem;
+}
+
+.score {
+    width: 100%;
+    height: 100%;
+    background-image:
+        radial-gradient(78.66% 177.87% at 19.56% 37.57%,
+            rgba(255, 255, 255, 0) 0%,
+            rgba(0, 0, 0, 0) 19.22%,
+            #080A0B 99.74%),
+        url('file:///D:/NEW%20HOBI/Binary/chalenge%20chapter%203/chap3/assets/top-score-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 5%;
+}
+
+.score-left {
+    color: white;
+}
+
+.card {
+    background-color: #1D1E1E !important;
+    width: 25rem !important;
+}
