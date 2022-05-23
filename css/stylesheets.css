@@ -6,7 +6,6 @@ body {
     width: 100%;
     overflow-y: visible;
     overflow-x: hidden;
-    user-select: none;
 }
 
 html {
